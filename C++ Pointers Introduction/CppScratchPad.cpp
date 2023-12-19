@@ -11,10 +11,13 @@ using std::endl;
 void main() // functions
 {
 	int myVar = 23; // store in the memory stack
-	int* myPointer = &myVar;		// & - means what is the address of
+	int *myPointer = &myVar;		// & - means what is the address of
+	//int yourInt, * yourIntPointer;
+	//int* myPointer;
+	
 	// myPointer ---> myVar
 	cout << myPointer << endl;    // 00000066DE56FC14 - address of myVar;
 	cout << (*myPointer) << endl;		// output value: 23
 	(*myPointer) = 15;
-	cout << myVar << endl;
+	cout << myVar << endl;			// output modified value: 15
 }

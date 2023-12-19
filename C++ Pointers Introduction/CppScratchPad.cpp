@@ -13,5 +13,6 @@ void main() // functions
 	int myVar = 23; // store in the memory stack
 	int* myPointer = &myVar;		// & - means what is the address of
 	// myPointer ---> myVar
-	cout << myPointer << endl;
+	cout << myPointer << endl;    // 00000066DE56FC14 - address of myVar;
+	cout << (*myPointer) << endl;
 }

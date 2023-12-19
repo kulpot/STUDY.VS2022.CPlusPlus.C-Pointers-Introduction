@@ -11,5 +11,6 @@ using std::end;
 void main() // functions
 {
 	int myVar = 23; // store in the memory stack
-	int* myPointer;
+	int* myPointer = &myVar;
+	// myPointer ---> myVar
 }

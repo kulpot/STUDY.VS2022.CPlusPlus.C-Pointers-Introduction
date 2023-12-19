@@ -8,7 +8,8 @@ using std::end;
 
 // C++ predecessor to java and C#
 
-void main()
+void main() // functions
 {
-
+	int myVar = 23; // store in the memory stack
+	int* myPointer;
 }
